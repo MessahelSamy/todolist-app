@@ -4,7 +4,7 @@
   margin: 55px auto auto auto;
   width: 50%;
   min-height: 500px;
-  background-image: url(../assets/gris-crayon\ blanc.jpg);
+  background-image: url(../assets/gris-crayon-blanc.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -65,7 +65,7 @@ h4 {
 }
 
 .todo-input::placeholder {
-  color: #e9ecef /*#e2e2e2*/;
+  color: #e9ecef;
 }
 
 .todo-button {
