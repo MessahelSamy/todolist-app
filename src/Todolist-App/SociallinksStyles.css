@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+.sociallinks-container {
+  display: none;
+  flex-direction: column;
+  top: 35%;
+  left: 0;
+  position: fixed;
+}
+
+@media (min-width: 1024px) {
+  .sociallinks-container {
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    left: 0;
+    position: fixed;
+  }
+}
+
+.li-sociallinks-linkedin {
+  background: rgb(19, 99, 223);
+  background: linear-gradient(
+    90deg,
+    rgba(19, 99, 223, 1) 30%,
+    rgba(15, 82, 186, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+  height: 55px;
+  padding-left: 22px;
+  padding-right: 16px;
+  margin-left: -140px;
+  transition: all 0.5s;
+  border-top-right-radius: 10px;
+}
+.li-sociallinks-linkedin:hover {
+  margin-left: -60px;
+  border-radius: 10px;
+}
+.li-sociallinks-github {
+  background: rgb(6, 70, 99);
+  background: linear-gradient(
+    90deg,
+    rgba(6, 70, 99, 1) 15%,
+    rgba(4, 41, 58, 1) 90%,
+    rgba(4, 28, 60, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+  height: 55px;
+  padding-left: 22px;
+  padding-right: 16px;
+  margin-left: -140px;
+  transition: all 0.5s;
+}
+.li-sociallinks-github:hover {
+  margin-left: -60px;
+  border-radius: 10px;
+}
+.li-sociallinks-instagram {
+  background: rgb(246, 211, 39);
+  background: linear-gradient(
+    86deg,
+    rgba(246, 211, 39, 1) 25%,
+    rgba(222, 77, 170, 1) 65%,
+    rgba(166, 0, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+  height: 55px;
+  padding-left: 22px;
+  padding-right: 16px;
+  margin-left: -140px;
+  transition: all 0.5s;
+}
+.li-sociallinks-instagram:hover {
+  margin-left: -60px;
+  border-radius: 10px;
+}
+.li-sociallinks-gmail {
+  background: linear-gradient(
+    90deg,
+    rgba(19, 99, 223, 1) 19%,
+    rgba(213, 0, 0, 1) 39%,
+    rgba(213, 0, 0, 1) 41%,
+    rgba(255, 196, 0, 1) 74%,
+    rgba(0, 112, 26, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+  height: 55px;
+  padding-left: 22px;
+  padding-right: 16px;
+  margin-left: -140px;
+  border-bottom-right-radius: 10px;
+  transition: all 0.5s;
+}
+.li-sociallinks-gmail:hover {
+  margin-left: -60px;
+  border-radius: 10px;
+}
+
+.a-sociallinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #ffffff;
+  font-family: "Righteous", cursive;
+  text-decoration: none;
+}
